@@ -17,6 +17,8 @@
 		06EFDA2F1E2B27C60056E3CD /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06EFDA2C1E2B27C60056E3CD /* 03.jpg */; };
 		06EFDA311E2B27FF0056E3CD /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06EFDA301E2B27FF0056E3CD /* 01.jpg */; };
 		06EFDA351E2B613F0056E3CD /* LoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDA341E2B613F0056E3CD /* LoopView.m */; };
+		06EFDA441E2C70160056E3CD /* LoopViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDA431E2C70160056E3CD /* LoopViewLayout.m */; };
+		06EFDA471E2C77880056E3CD /* LoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFDA461E2C77880056E3CD /* LoopViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		06EFDA301E2B27FF0056E3CD /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
 		06EFDA331E2B613F0056E3CD /* LoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopView.h; sourceTree = "<group>"; };
 		06EFDA341E2B613F0056E3CD /* LoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopView.m; sourceTree = "<group>"; };
+		06EFDA421E2C70160056E3CD /* LoopViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopViewLayout.h; sourceTree = "<group>"; };
+		06EFDA431E2C70160056E3CD /* LoopViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopViewLayout.m; sourceTree = "<group>"; };
+		06EFDA451E2C77880056E3CD /* LoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopViewCell.h; sourceTree = "<group>"; };
+		06EFDA461E2C77880056E3CD /* LoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 			children = (
 				06EFDA331E2B613F0056E3CD /* LoopView.h */,
 				06EFDA341E2B613F0056E3CD /* LoopView.m */,
+				06EFDA421E2C70160056E3CD /* LoopViewLayout.h */,
+				06EFDA431E2C70160056E3CD /* LoopViewLayout.m */,
+				06EFDA451E2C77880056E3CD /* LoopViewCell.h */,
+				06EFDA461E2C77880056E3CD /* LoopViewCell.m */,
 			);
 			path = LoopView;
 			sourceTree = "<group>";
@@ -176,6 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06EFDA471E2C77880056E3CD /* LoopViewCell.m in Sources */,
+				06EFDA441E2C70160056E3CD /* LoopViewLayout.m in Sources */,
 				06EFDA1B1E2B1E0D0056E3CD /* ViewController.m in Sources */,
 				06EFDA181E2B1E0D0056E3CD /* AppDelegate.m in Sources */,
 				06EFDA351E2B613F0056E3CD /* LoopView.m in Sources */,
@@ -338,6 +350,7 @@
 				06EFDA291E2B1E0D0056E3CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

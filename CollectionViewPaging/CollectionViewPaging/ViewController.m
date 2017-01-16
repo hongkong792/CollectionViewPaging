@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "ViewController.h"
 #import "LoopView.h"
-
+#import "LoopViewLayout.h"
 
 @interface ViewController ()
 
